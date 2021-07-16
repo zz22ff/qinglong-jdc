@@ -19,4 +19,4 @@ jobs:
     - name: Login Docker Hub
       run: echo ${{ secrets.DOCKER_HUB_PASS }} | docker login -u ${{ secrets.DOCKER_HUB_USER }} --password-stdin
     - name: Push Docker Image
-      run: docker push zz22ff/qinglong-jdc:latest
+      run: docker push zz22ff/qinglong-jdc:latest1
