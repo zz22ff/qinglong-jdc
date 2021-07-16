@@ -49,7 +49,7 @@ fi
 echo -e "=============== 启动 JDC for qinglong2.8 ====================\n"
 cd /ql/jdc/
 if [ ! -f "config.toml" ]; then
-  cp -rf /ql/jdc-2.8/* ./
+  cp -rf /ql/jdc-1.0.3/* ./
 fi
 nohup /ql/jdc/JDC &
 echo -e "JDC启动成功...\n"
